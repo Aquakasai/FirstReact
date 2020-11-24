@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import perenoel from './perenoel.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+	<header className="App-header">
+		<img src={perenoel} className="App-logo" alt="logo" />
+		<h1>Liste au père noël</h1>
+		<ul>
+		<li>un nouveau pc</li>
+		<li>la santé de tous</li>
+		<li>Cyberpunk 2077</li>
+		<li>une meilleur année</li>
+	  </ul>
       </header>
     </div>
   );
